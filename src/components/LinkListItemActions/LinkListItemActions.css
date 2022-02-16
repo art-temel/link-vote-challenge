@@ -7,11 +7,12 @@
 	color: black;
 }
 
-.link-list__item__actions__button__vote {
+.link-list__item__actions__button__vote,
+.link-list__item__actions__button__vote:active{
 	color: #bbbdbf;
 	font-weight: 600;
 }
-.link-list__item__actions__button__vote:active,
+
 .link-list__item__actions__button__vote:hover,
 .link-list__item__actions__button__vote:focus {
 	color: black;
