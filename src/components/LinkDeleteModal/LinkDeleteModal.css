@@ -1,0 +1,58 @@
+.link-list__item {
+	border: 1px solid transparent;
+	padding: 2px 8px;
+}
+.link-list__item:hover {
+	border-color: #eaeaea;
+	background-color: #f7f7f7;
+	border-radius: 4px;
+}
+
+.link-list__item__delete-button {
+	position: absolute;
+	top: -16px;
+	right: -24px;
+	color: red !important;
+}
+
+.link-list__item__delete-button :hover {
+	background-color: transparent !important;
+}
+.link-list__item__delete-button :active {
+	background-color: transparent !important;
+}
+
+.link-list__item_remove-modal__content {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+.link-list__item_remove-modal .ant-modal-header {
+	background-color: black;
+}
+.link-list__item_remove-modal .ant-modal-header .ant-modal-title {
+	color: white;
+	font-weight: 600;
+}
+.link-list__item_remove-modal .ant-modal-body {
+	background-color: #d8d8d8;
+}
+.link-list__item_remove-modal__close-icon {
+	color: white;
+	stroke-width: 40;
+	stroke: white;
+}
+.black-button,
+.black-button:active,
+.black-button:hover,
+.black-button:focus {
+	background-color: black;
+	border: unset;
+	border-radius: 24px;
+	color: white;
+	width: 120px;
+	height: 40px;
+}

@@ -1,0 +1,20 @@
+.create-link-button,
+.create-link-button:active,
+.create-link-button:focus {
+	height: max-content;
+	padding: 8px 12px;
+	width: 100%;
+	text-align: start;
+	border-radius: 8px;
+	border: 1px solid #eaeaea;
+	color: black;
+	display: inline-flex;
+	align-items: center;
+	gap: 24px;
+}
+
+.create-link-button:hover {
+	border-color: #eaeaea;
+	background-color: #f7f7f7;
+	color: black;
+}

@@ -1,0 +1,84 @@
+@import '~antd/dist/antd.css';
+
+p {
+	margin: 0px;
+}
+
+.ant-layout {
+	background-color: #ffffff !important;
+	align-items: center;
+}
+.ant-layout-header.site-header {
+	width: 100% !important;
+	z-index: 10;
+	position: fixed;
+	background-color: white !important;
+}
+.ant-layout-content.site-layout {
+	min-width: 420px;
+	align-items: center;
+	margin-top: 64px;
+	padding: 24px 50px;
+	height: calc(100vh - 64px);
+}
+
+.header__layout-slider {
+	margin: 0px;
+	border-color: 2px solid #acacac;
+}
+
+.ant-divider {
+	border-top-width: 2px;
+}
+
+.ant-typography {
+	margin: 0px !important;
+}
+
+.ant-btn.ant-btn-link {
+	padding: 0px;
+}
+
+.ant-list-pagination .ant-pagination {
+	display: flex;
+	justify-content: center;
+}
+
+.ant-select-arrow {
+	user-select: none;
+	height: 30px;
+	top: 7px;
+	right: 1px;
+	width: 24px;
+	border-left: 1px solid #d7d1d1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ant-select-arrow > div:nth-child(1) {
+	/*! background-color: red; */ /*! height: 30px; */ /*! border-radius: 0px 1px 1px 0px; */
+	height: 17px;
+}
+
+.ant-select-selector {
+	background-color: #f2f2f2 !important;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+.success-toast-container .ant-message-notice-content {
+	background-color: #ddf9d3;
+	border: 1px solid #69b256;
+	border-radius: 4px;
+	color: #4ba149 !important;
+}
+.success-toast-container .ant-message-notice-content .ant-typography {
+	color: #4ba149 !important;
+}
+
+.success-toast-container .ant-message-notice-content p {
+	margin: 0;
+}

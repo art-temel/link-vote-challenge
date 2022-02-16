@@ -1,0 +1,18 @@
+.link-list__item__actions {
+	color: #6b6b6b;
+}
+.link-list__item__actions:active,
+.link-list__item__actions:hover,
+.link-list__item__actions:focus {
+	color: black;
+}
+
+.link-list__item__actions__button__vote {
+	color: #bbbdbf;
+	font-weight: 600;
+}
+.link-list__item__actions__button__vote:active,
+.link-list__item__actions__button__vote:hover,
+.link-list__item__actions__button__vote:focus {
+	color: black;
+}
