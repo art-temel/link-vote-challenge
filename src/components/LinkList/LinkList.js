@@ -8,7 +8,7 @@ export default function LinkList({ linkList, setLinkList }) {
 	const [sortType, setSortType] = useState();
 
 	const onLinkChange = (item) => {
-		setLinkList((prevData) => prevData.map((el) => (el.id === item.id ? item : el)));
+		setLinkList((prevData) => [item,...prevData.filter((el) => el.id !== item.id)]);
 	};
 
 	const onDeleteLink = (item) => {
