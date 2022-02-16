@@ -14,7 +14,7 @@ export default function LinkListItem({ item, onLinkChange, onDeleteLink }) {
 	const [isDeleteModalVisible, setIsDeleteModalVisible] = useState(false);
 
 	const voteChange = (increment) => {
-		onLinkChange({ ...item, score: item.score + parseInt(increment, 10) });
+		onLinkChange({ ...item,  score: item.score + parseInt(increment, 10), lastChange: new Date()});
 	};
 
 	const deleteLink = () => {
